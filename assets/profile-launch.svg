@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.5" stop-color="#0b1d33"/>
+      <stop offset="1" stop-color="#071019"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#52f7c8"/>
+      <stop offset="1" stop-color="#66a3ff"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#5fa8d3" stroke-opacity=".08"/>
+    </pattern>
+  </defs>
+  <rect width="1000" height="280" rx="18" fill="url(#bg)"/>
+  <rect width="1000" height="280" rx="18" fill="url(#grid)"/>
+  <rect x="1" y="1" width="998" height="278" rx="17" fill="none" stroke="#58e8c3" stroke-opacity=".32"/>
+  <circle cx="42" cy="34" r="6" fill="#ff6b6b"/>
+  <circle cx="64" cy="34" r="6" fill="#ffd166"/>
+  <circle cx="86" cy="34" r="6" fill="#52f7c8"/>
+  <text x="120" y="40" fill="#8ba4bd" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">songguo@ai-product:~</text>
+  <text x="64" y="103" fill="#52f7c8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20">$ launch profile</text>
+  <text x="64" y="158" fill="white" font-family="Arial, PingFang SC, sans-serif" font-size="38" font-weight="700">SONGGUO · AI PRODUCT BUILDER</text>
+  <rect x="64" y="184" width="530" height="3" rx="1.5" fill="url(#accent)" filter="url(#glow)"/>
+  <text x="64" y="224" fill="#9cb4c9" font-family="Arial, PingFang SC, sans-serif" font-size="18">Agent  ·  RAG  ·  Memory  ·  Evaluation  ·  Vibe Coding</text>
+  <g transform="translate(852 78)" fill="none" stroke="url(#accent)" stroke-width="3" filter="url(#glow)">
+    <path d="M12 76c0-40 28-64 66-64s66 24 66 64-28 72-66 72S12 116 12 76Z"/>
+    <path d="M45 70c11-15 22-22 33-22s22 7 33 22M48 99c18 13 42 13 60 0"/>
+    <circle cx="54" cy="78" r="4" fill="#52f7c8" stroke="none"/>
+    <circle cx="102" cy="78" r="4" fill="#66a3ff" stroke="none"/>
+  </g>
+  <text x="858" y="246" fill="#52f7c8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">CLICK TO EXPLORE →</text>
+</svg>
